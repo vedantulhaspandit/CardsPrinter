@@ -37,7 +37,7 @@ This command will create an instance of the broker called as broker bot inside t
 To start the broker instance type:
 ```bash
  ./bin/apollo-broker run
-```bash
+```
 Access  http://127.0.0.1:61680/ to create a new user and password.
 After accessing the Apache Apollo Interface create two instances of the queue - **toPython** and **fromPython**
 
