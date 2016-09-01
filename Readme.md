@@ -13,6 +13,7 @@ The App leverages the power of:
 * Apache Apollo(Message Broker):- To provide message binding between two different applications written in two different platforms
 
 #Architecture
+![12](https://cloud.githubusercontent.com/assets/15076889/18174437/6ba53710-7022-11e6-97d1-e3b279ee927f.png)
 
 #Pre-requisites:
 * Latest version of Node.js
