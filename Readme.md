@@ -41,17 +41,24 @@ To start the broker instance type:
 ```
 Access  http://127.0.0.1:61680/ to create a new user and password.
 After accessing the Apache Apollo Interface create two instances of the queue - **toPython** and **fromPython**
+![a](https://cloud.githubusercontent.com/assets/15076889/18174502/ac01154a-7022-11e6-88d6-43e2b01590b5.png)
 
 2. Go to lacation where node folder is there, and in a new command prompt, type **nodemon** to start node app.
 This will start the NodeJS app.and when properly connected to the Apache Apollo broker would write **Connected to Apollo** to the Console
+![b](https://cloud.githubusercontent.com/assets/15076889/18174542/c06db61e-7022-11e6-9ce3-c9124284d23e.png)
 
 3. Start the Python Script in the command prompt as shown:
+![c](https://cloud.githubusercontent.com/assets/15076889/18174545/c63e572e-7022-11e6-8f21-f1b4b5de60d7.png)
 
 4. Front End Interface after step 2:
+![d](https://cloud.githubusercontent.com/assets/15076889/18174547/c819ac56-7022-11e6-9896-73b0cdd55330.png)
 
 5. After the Process cards button is pressed the cards are processed in real time by the python script and shown at the front-end interface in real-time: 
-
+![e1](https://cloud.githubusercontent.com/assets/15076889/18174554/cbf70e68-7022-11e6-8baa-a748d76b7408.png)
+   
    Also at back end,
+![e2](https://cloud.githubusercontent.com/assets/15076889/18174557/cfd66272-7022-11e6-9614-af6030ff1591.png)
 
 6. The final card generated is stored in output folder and can be viewed using view card:
+![f](https://cloud.githubusercontent.com/assets/15076889/18174565/d6a4c88c-7022-11e6-8549-9c6db78ac5bf.png)
 
