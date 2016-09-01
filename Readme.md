@@ -30,14 +30,14 @@ npm install
 #Steps for deployment 
 In order to deploy the app you will need three seperate instances of Apache Apollo, NodeJS app, Python script
 1. Open the Command prompt and browse into the **apollo** folder formed after installing apache apollo. Go inside the **broker** folder which is in **apollo** folder and type:
-'''
+```bash
    ../apacheapollo/apache-apollo-1.7.1/bin apache create brokerbot
-''' 
+``` 
 This command will create an instance of the broker called as broker bot inside the broker folder.
 To start the broker instance type:
-'''
+```bash
  ./bin/apollo-broker run
-'''
+```bash
 Access  http://127.0.0.1:61680/ to create a new user and password.
 After accessing the Apache Apollo Interface create two instances of the queue - **toPython** and **fromPython**
 
@@ -50,7 +50,7 @@ This will start the NodeJS app.and when properly connected to the Apache Apollo 
 
 5. After the Process cards button is pressed the cards are processed in real time by the python script and shown at the front-end interface in real-time: 
 
-Also at back end,
+   Also at back end,
 
 6. The final card generated is stored in output folder and can be viewed using view card:
 
