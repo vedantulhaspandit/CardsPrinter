@@ -1,0 +1,9 @@
+output
+
+# Node Dependencies
+node/node_modules
+
+# log files
+node/applog.log
+
+
